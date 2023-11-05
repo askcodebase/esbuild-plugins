@@ -1,5 +1,5 @@
 {
-    "name": "@esbuild-plugins/node-modules-polyfill",
+    "name": "@askcodebase/node-modules-polyfill",
     "version": "0.2.2",
     "description": "",
     "main": "dist/index.js",
@@ -19,13 +19,12 @@
     "author": "Tommaso De Rossi, morse <beats.by.morse@gmail.com>",
     "license": "ISC",
     "devDependencies": {
-        "safe-buffer": "^5.2.1",
-        "test-support": "*",
-        "@esbuild-plugins/node-globals-polyfill": "*"
+        "@esbuild-plugins/node-globals-polyfill": "*",
+        "safe-buffer": "^5.2.1"
     },
     "dependencies": {
-        "escape-string-regexp": "^4.0.0",
-        "rollup-plugin-node-polyfills": "^0.2.1"
+        "@askcodebase/rollup-plugin-node-polyfills": "^0.2.1",
+        "escape-string-regexp": "^4.0.0"
     },
     "peerDependencies": {
         "esbuild": "*"

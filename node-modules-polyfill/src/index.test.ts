@@ -1,4 +1,5 @@
 import { build } from 'esbuild'
+// @ts-ignore
 import { writeFiles } from 'test-support'
 import fs from 'fs'
 import NodeModulesPolyfillsPlugin from '.'
