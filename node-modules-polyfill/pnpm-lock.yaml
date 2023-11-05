@@ -5,15 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@askcodebase/rollup-plugin-node-polyfills':
-    specifier: ^0.2.2
-    version: 0.2.2
   esbuild:
     specifier: '*'
     version: 0.19.5
   escape-string-regexp:
     specifier: ^4.0.0
     version: 4.0.0
+  rollup-plugin-node-polyfills:
+    specifier: npm:@askcodebase/rollup-plugin-node-polyfills@^0.2.2
+    version: /@askcodebase/rollup-plugin-node-polyfills@0.2.2
 
 devDependencies:
   '@esbuild-plugins/node-globals-polyfill':
