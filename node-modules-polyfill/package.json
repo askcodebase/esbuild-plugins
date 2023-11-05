@@ -1,6 +1,6 @@
 {
     "name": "@askcodebase/node-modules-polyfill",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "description": "",
     "main": "dist/index.js",
     "module": "esm/index.js",
@@ -23,7 +23,7 @@
         "safe-buffer": "^5.2.1"
     },
     "dependencies": {
-        "rollup-plugin-node-polyfills": "npm:@askcodebase/rollup-plugin-node-polyfills@^0.2.4",
+        "rollup-plugin-node-polyfills": "npm:@askcodebase/rollup-plugin-node-polyfills@^0.2.5",
         "escape-string-regexp": "^4.0.0"
     },
     "peerDependencies": {
