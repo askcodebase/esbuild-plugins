@@ -6,17 +6,14 @@ settings:
 
 dependencies:
   '@askcodebase/rollup-plugin-node-polyfills':
-    specifier: ^0.2.1
-    version: 0.2.1
+    specifier: ^0.2.2
+    version: 0.2.2
   esbuild:
     specifier: '*'
     version: 0.19.5
   escape-string-regexp:
     specifier: ^4.0.0
     version: 4.0.0
-  test-support:
-    specifier: ../test-support
-    version: link:../test-support
 
 devDependencies:
   '@esbuild-plugins/node-globals-polyfill':
@@ -28,8 +25,8 @@ devDependencies:
 
 packages:
 
-  /@askcodebase/rollup-plugin-node-polyfills@0.2.1:
-    resolution: {integrity: sha512-S4CEvmFZnCXmpEEzy9yqAw4/ihmj2wmcuY2jq+gMjn0YF+lVB8LDri+5f+BjN3/7yK9d93qeubwdqZnk6rPBVg==}
+  /@askcodebase/rollup-plugin-node-polyfills@0.2.2:
+    resolution: {integrity: sha512-T4DWMC8oqs2ZDJYKOidmlZmsdiib6nJfDi0DbkHBowSUIehW+jiWuabqZCvBP40v2vysN1ma7I66VOXk3tG5ew==}
     dependencies:
       rollup-plugin-inject: 3.0.2
     dev: false
